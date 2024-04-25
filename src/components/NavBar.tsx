@@ -1,12 +1,16 @@
 import { Navbar, NavbarBrand, NavbarContent } from "@nextui-org/react";
-import { MdApi } from "react-icons/md";
+
+import { TiWeatherPartlySunny } from "react-icons/ti";
+import { IoFlowerOutline } from "react-icons/io5";
+
 
 const NavBar = () => {
   return (
     <Navbar className="bg-slate-100 h-16">
       <NavbarBrand>
-        <MdApi className="w-8 h-8 text-primary" />
-        <p className="font-bold text-inherit">Weather API</p>
+        <TiWeatherPartlySunny className="w-8 h-8 text-primary" />
+        <IoFlowerOutline className="w-8 h-8 text-danger" />
+        <p className="font-bold text-inherit">Weather and Flower API </p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         {/* <NavbarItem>

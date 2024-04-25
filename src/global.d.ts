@@ -5,3 +5,11 @@ interface WeatherData {
   wind: number;
   rain: number;
 }
+
+interface FlowerData {
+  flowerName: string;
+  temperature: number;
+  waterNeeds: number;
+  fertilizerNeeds: number;
+  sunHour: number;
+}
