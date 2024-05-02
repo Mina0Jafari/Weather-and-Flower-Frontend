@@ -95,7 +95,7 @@ const WeatherCard: React.FC = () => {
       ) : (
         <CardBody>
           <div className="flex flex-col items-center">
-            <p className="text-xl font-bold">Please enter a city</p>
+            <p className="text-xl font-bold">Enter a city name</p>
           </div>
         </CardBody>
       )}
@@ -208,7 +208,7 @@ const FlowerCard: React.FC = () => {
    ) : (
         <CardBody>
           <div className="flex flex-col items-center">
-            <p className="text-xl font-bold">Please enter a flower</p>
+            <p className="text-xl font-bold">Enter a flower name</p>
           </div>
         </CardBody>
       )}
